@@ -1,0 +1,104 @@
+.goals-display-container {
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.goals-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.goal {
+  margin: 10px 0;
+  width: 45%;
+}
+
+.goal-label {
+  font-weight: bold;
+}
+
+.goal-value {
+  margin-left: 10px;
+}
+
+.motivation-container {
+  margin: 50px 0;
+  display: flex;
+  width: 100%;
+}
+
+.motivation-image {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.motivation-text {
+  margin-left: 20px;
+}
+
+
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #ccc;
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-text {
+  margin-left: 10px;
+}
+
+#current-weight {
+  font-weight: bold;
+}
+
+#goal-weight {
+  font-weight: bold;
+}
+
+
+.setgoalsbutton {
+  border: none;
+	outline: none;
+	background-color: rgb(63, 235, 177);
+	border-radius: 20px;
+	width: 120px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+
+.goal-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.goal-label {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.goal-value {
+  flex-grow: 1;
+}
+
+.divider {
+  border: 1px solid #ccc;
+  margin: 16px 0;
+}

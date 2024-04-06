@@ -1,0 +1,30 @@
+.how-to-use-contantForm {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.how-to-use-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
